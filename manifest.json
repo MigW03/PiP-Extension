@@ -4,10 +4,10 @@
     "description": "Adds a button to enable PiP in YouTube videos",
     "manifest_version": 3,
     "author": "Miguel Weber",
-    "content-scripts": [
+    "content_scripts": [
         {
             "matches": [
-                "https://www.youtube.com/",
+                "https://www.youtube.com/*",
                 "https://www.twitch.tv/"
             ],
             "css": [],
