@@ -1,0 +1,22 @@
+{
+    "name": "YouTube Picture-in-picture",
+    "version": "0.0.1",
+    "description": "Adds a button to enable PiP in YouTube videos",
+    "manifest_version": 3,
+    "author": "Miguel Weber",
+    "content-scripts": [
+        {
+            "matches": [
+                "https://www.youtube.com/",
+                "https://www.twitch.tv/"
+            ],
+            "css": [],
+            "js": [
+                "script.js"
+            ]
+        }
+    ],
+    "action": {
+        "default_title": "YTB PiP"
+    }
+}
